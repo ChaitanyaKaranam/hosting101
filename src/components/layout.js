@@ -25,14 +25,14 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header />
-      <div>
+      <div className="layout">
         <main>{children}</main>
-        <footer style={{
-          marginTop: `2rem`
-        }}>
-          © {new Date().getFullYear()}, Hosting101.dev
-        </footer>
       </div>
+      <footer style={{
+        marginTop: `2rem`
+      }}>
+        © {new Date().getFullYear()}, Hosting101.dev
+      </footer>
     </>
   )
 }

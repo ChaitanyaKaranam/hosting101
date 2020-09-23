@@ -4,8 +4,14 @@ import React from "react"
 const Header = (props) => (
   <header>
     <nav>
-      <ul>
-        <li>Hosting101</li>
+      <ul className="navbar">
+        <li>
+          <h2>Hosting101</h2>
+        </li>
+        <ul className="menu">
+          <li>Guides</li>
+          <li>Github</li>
+        </ul>
       </ul>
     </nav>
   </header>
