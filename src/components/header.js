@@ -6,7 +6,7 @@ const Header = (props) => (
     <nav>
       <ul className="navbar">
         <li>
-          <h2>Hosting101</h2>
+          <h3>Hosting101</h3>
         </li>
         <ul className="menu">
           <li>Guides</li>

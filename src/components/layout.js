@@ -23,9 +23,9 @@ const Layout = ({ children }) => {
   // `)
 
   return (
-    <>
+    <div className="mainWrapper">
       <Header />
-      <div className="layout">
+      <div>
         <main>{children}</main>
       </div>
       <footer style={{
@@ -33,7 +33,7 @@ const Layout = ({ children }) => {
       }}>
         © {new Date().getFullYear()}, Hosting101.dev
       </footer>
-    </>
+    </div>
   )
 }
 

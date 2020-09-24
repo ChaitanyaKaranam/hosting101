@@ -37,7 +37,7 @@
 //                 Animations              |
 //------------------------------------------
 
-@mixin transition($seconds: 100ms, $animation: ease, $type: all) {
+@mixin transition($seconds: 300ms, $animation: ease, $type: all) {
     transition: $seconds $animation $type;
 }
 

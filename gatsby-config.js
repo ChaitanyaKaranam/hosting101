@@ -15,7 +15,13 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    `gatsby-plugin-sass`
+    `gatsby-plugin-sass`,
+    {
+      resolve: 'gatsby-plugin-load-script',
+      options: {
+        src: '/scroll.js',
+      },
+    },
     // {
     //   resolve: `gatsby-plugin-manifest`,
     //   options: {
