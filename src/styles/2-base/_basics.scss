@@ -26,7 +26,7 @@ html, body{
 button, 
 .button{
     @include shadow;
-    @include btn-props($green);
+    @include btn-props($blue);
     font-family: 'Open Sans', sans-serif;
     font-size: $content;
     padding: 1rem;
@@ -100,4 +100,5 @@ footer{
     background-color: $black;
     color: white;
     text-align: center;
+    height: 4.5rem;
 }

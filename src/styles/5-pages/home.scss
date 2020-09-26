@@ -1,0 +1,60 @@
+.heroSection{
+    background-color: $black;
+    color: white;
+    height: 90vh;
+}
+
+.hero{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90vh;
+}
+
+.hero__content{
+    align-self: center;
+    margin-bottom: 3rem;
+}
+
+.hero__image{
+    place-self: center end;
+    img{
+        width: 100%;
+    }
+}
+
+.hero__cta{
+    margin-top: 3rem;
+}
+
+@media all and (max-width: 1400px) { 
+   .hero__image{
+        width: 70%;
+   }
+}
+@media all and (max-width: 1280px) { 
+    .hero__image{
+        width: 65%;
+    }
+}
+@media all and (max-width: 980px) {
+
+    .hero{
+        grid-template-columns: 1fr;
+    }
+
+    .hero__content{
+        justify-self: center;
+        text-align: center;
+    }
+
+    .hero__cta{
+        text-align: center;
+    }
+
+    .hero__image{
+        justify-self: center;
+        width: 50%;
+    }
+}
